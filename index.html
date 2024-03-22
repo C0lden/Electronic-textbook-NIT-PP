@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="src/CSS-JS/style.css" />
+		<link rel="stylesheet" href="src/CSS-JS/adaptive/style1000.css" />
+		<link rel="stylesheet" href="src/CSS-JS/adaptive/style750.css" />
+		<title>Электронный учебник</title>
+	</head>
+	<body>
+		<header class="header">
+			<div class="header-menu" onclick="show_menu()"></div>
+
+			<div class="header-title">Theme name</div>
+		</header>
+
+		<main class="main">
+			<div class="main-container">Content</div>
+		</main>
+
+		<footer class="footer">
+			<div class="footer-logo"></div>
+		</footer>
+
+		<div class="themes-menu" id="themes-menu">
+			<div class="menu-header">
+				<div class="menu-title">Выбирите тему</div>
+				<div class="menu-exit" onclick="show_menu('close')"></div>
+			</div>
+
+			<div class="menu-content">Menu content</div>
+
+			<div class="menu-footer"></div>
+		</div>
+
+		<script src="src/CSS-JS/script.js"></script>
+	</body>
+</html>
