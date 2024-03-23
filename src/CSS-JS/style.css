@@ -11,6 +11,13 @@
 	--second-color: #9eb5ff;
 }
 
+font{
+	cursor: default;
+}
+font::selection {
+    background-color: rgb(255, 252, 252);
+}
+
 /* HEADER STYLES ==========================================*/
 .header {
 	background: var(--main-color);
