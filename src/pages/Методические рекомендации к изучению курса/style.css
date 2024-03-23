@@ -1,0 +1,22 @@
+.main-container-zagolovok {
+	text-align: center;
+}
+
+.main-container-content ul li {
+    margin-left: 25px;
+}
+
+.table_1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.table_2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 15%;
+}
+
+font::selection {
+    background-color: rgb(255, 252, 252);
+}
