@@ -4,7 +4,7 @@ const show_menu = (action) => {
     menu = document.getElementById('themes-menu')
 
     if (menu_active | action == "close"){
-        menu.style.left = "-500px"
+        menu.style.left = "-600px"
         menu_active = false
     }
     else{

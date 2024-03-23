@@ -47,7 +47,7 @@
 	width: 100px;
 	height: 70px;
 	margin: 15px;
-	border: 2px solid white;
+	/* border: 2px solid white; */
 	border-radius: 10px;
 	background: url(../pics/menu.jpg);
 	background-size: 50px;
@@ -58,8 +58,8 @@
 }
 
 .header-menu:hover {
-	background: #5961aa url(../pics/menu.jpg);
-	background-size: 49px;
+	background: var(--second-color) url(../pics/menu.jpg);
+	background-size: 50px;
 	background-position: center center;
 	background-repeat: no-repeat;
 	/* transform: scale(1.1); */
@@ -72,12 +72,12 @@
 
 /* MENU STYLES ============================================*/
 .themes-menu {
-	width: 500px;
+	width: 600px;
 	height: 85vh;
-	background: #9eb5ff;
+	background: var(--second-color);
 	position: fixed;
 	top: 55%;
-	left: -500px;
+	left: -600px;
 	transform: translate(0, -50%);
 	border-top-right-radius: 25px;
 	border-bottom-right-radius: 25px;
@@ -115,7 +115,7 @@
 }
 
 .menu-exit:hover {
-	background: #656ec0 url(../pics/close.png);
+	background: var(--second-color) url(../pics/close.png);
 	background-size: 90%;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -149,6 +149,27 @@
 	background: white;
 	border: 5px solid var(--main-color);
 	border-radius: 15px;
+}
+
+.menu-item{
+	width: 100%;
+	font-size: 25px;
+	transition: all 0.1s ease;
+	padding: 10px 5px;
+	border-bottom: 1px solid white;
+}
+
+.razd{
+	margin-top: 50px;
+}
+
+.menu-item:hover{
+	background: var(--main-color);
+}
+
+.menu-content a{
+	color: white;
+	text-decoration: none;
 }
 
 /* MENU STYLES ============================================*/
