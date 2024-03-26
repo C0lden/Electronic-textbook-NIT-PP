@@ -11,6 +11,13 @@
 	--second-color: #9eb5ff;
 }
 
+font{
+	cursor: default;
+}
+font::selection {
+    background-color: rgb(255, 252, 252);
+}
+
 /* HEADER STYLES ==========================================*/
 .header {
 	background: var(--main-color);
@@ -197,7 +204,7 @@
 .footer-logo {
     width: 150px;
     height: 124px;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     right: 0;
     background: url(../pics/logo.jpeg);
