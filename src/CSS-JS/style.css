@@ -189,7 +189,7 @@ font::selection {
 	position: absolute;
 	left: 50%;
 	transform: translate(-50%);
-	font-size: 30px;
+	font-size: 25px;
 	padding-top: 150px;
 	z-index: 10;
 	text-align: justify;
@@ -200,6 +200,9 @@ font::selection {
 	margin-bottom: 50px;
 }
 
+.table_2 {
+	margin-left: 100%;
+}
 /* FOOTER STYLES ==========================================*/
 .footer-logo {
     width: 150px;
