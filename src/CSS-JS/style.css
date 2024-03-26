@@ -210,5 +210,6 @@ font::selection {
     background: url(../pics/logo.jpeg);
     background-size: 100%;
     background-repeat: no-repeat;
+	z-index: 69;
 }
 

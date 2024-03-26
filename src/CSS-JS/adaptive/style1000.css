@@ -4,11 +4,15 @@
         padding: 10px;
     }
 
-    .header-menu{
+    /* .header-menu{
         width: 150px;
-    }
+    } */
 
     .header-title{
         font-size: 30px;
+    }
+
+    table{
+        width: 100%;
     }
 }
