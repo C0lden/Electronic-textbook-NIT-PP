@@ -23,14 +23,25 @@
         font-size: 25px;
     }
 
-    .themes-menu{
+    /* .themes-menu{
         width: 90%;
-    }
+    } */
 }
 
 @media (max-width: 550px) {
     .main-container{
         width: 200%;
         height: 480vh;
+        font-size: 10px;
+    }
+
+    .header-title{
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 350px) {
+    .main-container{
+        font-size: 10px;
     }
 }
