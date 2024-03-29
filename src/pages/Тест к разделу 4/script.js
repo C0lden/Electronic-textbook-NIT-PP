@@ -19,10 +19,9 @@ function ZaMirZaKiev () {
     if (document.getElementById('14-A').checked) score++
     if (document.getElementById('15-A').checked) score++
     if (document.getElementById('16-A').checked) score++
-    if (document.getElementById('17-A').checked) score++
 
     console.log(score);
 
-    return `Правильных ответов - ${score},\nНеправильных ответов - ${17 - score}.`
+    return `Правильных ответов - ${score};\nНеправильных ответов - ${16 - score}.`
     
 }

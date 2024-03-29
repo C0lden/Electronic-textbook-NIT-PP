@@ -24,6 +24,21 @@ function ZaMirZaKiev () {
     if (document.getElementById('19-A').checked) score++
     if (document.getElementById('20-A').checked) score++
     if (document.getElementById('21-A').checked) score++
+    if (document.getElementById('22-A').checked) score++
+    if (document.getElementById('23-A').checked) score++
+    if (document.getElementById('24-A').checked) score++
+    if (document.getElementById('25-A').checked) score++
+    if (document.getElementById('26-A').checked) score++
+    if (document.getElementById('27-A').checked) score++
+    if (document.getElementById('28-A').checked) score++
+    if (document.getElementById('29-A').checked) score++
+    if (document.getElementById('30-A').checked) score++
+    if (document.getElementById('31-A').checked) score++
+    if (document.getElementById('32-A').checked) score++
+    if (document.getElementById('33-A').checked) score++
+    if (document.getElementById('34-A').checked) score++
+    if (document.getElementById('35-A').checked) score++
+    if (document.getElementById('36-A').checked) score++
 
     console.log(score);
 
