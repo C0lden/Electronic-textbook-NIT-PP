@@ -208,10 +208,11 @@ font::selection {
     width: 150px;
     height: 124px;
     position: fixed;
-    bottom: 0;
+	top: 100px;
     right: 0;
     background: url(../pics/logo.jpeg);
     background-size: 100%;
     background-repeat: no-repeat;
+	z-index: 69;
 }
 
